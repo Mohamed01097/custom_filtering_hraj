@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="action_report_filtering_hraj" model="ir.actions.report">
+            <field name="name">Filtering Hraj Report</field>
+            <field name="model">settlement</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">custom_filtering.report_filtering_hraj_template</field>
+            <field name="report_file">custom_filtering.report_filtering_hraj_template</field>
+        </record>
+
+    </data>
+</odoo>
